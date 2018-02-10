@@ -45,6 +45,7 @@
                 <li><a href="../t11/index.html">职业</a></li>
                 <li><a href="">推荐</a></li>
                 <li><a href="">关于</a></li>
+                <li ><a href="" style="color: red;">${welcome}</a></li>
             </ul>
         </div>
 

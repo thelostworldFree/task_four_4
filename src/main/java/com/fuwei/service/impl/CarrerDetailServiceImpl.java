@@ -18,29 +18,5 @@ public class CarrerDetailServiceImpl implements CarrerDetailService {
 		return carrerDetailMapper.list1(carrerDetail);
 	}
 
-	@Override
-	public void add1(CarrerDetail c) {
-		carrerDetailMapper.add1(c);
-		
-	}
-
-
-	@Override
-	public void update1(CarrerDetail c) {
-		carrerDetailMapper.update1(c);
-	}
-
-
-	@Override
-	public void delete1(CarrerDetail c) {
-		carrerDetailMapper.delete1(c.getCid());
-	}
-
-
-	@Override
-	public CarrerDetail get1(int cid) {
-		// TODO Auto-generated method stub
-		return carrerDetailMapper.get1(cid);
-	};
 
 }

@@ -25,26 +25,4 @@ public class StudentServiceImpl implements StudentService {
 		return studentMapper.count(state);
 
 	}
-
-
-
-
-	@Override
-	public void update(Student s) {
-		studentMapper.update(s);
-	}
-
-
-	@Override
-	public void delete(Student s) {
-		studentMapper.delete(s.getId());
-	}
-
-
-	@Override
-	public Student get(int id) {
-		// TODO Auto-generated method stub
-		return studentMapper.get(id);
-	};
-
 }

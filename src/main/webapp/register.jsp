@@ -2,7 +2,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <title>login</title>
+    <title>Register</title>
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
@@ -13,8 +13,9 @@
 <body>
 <center>
 <h1>用户注册</h1>
+    <p style="color:red">${exist}</p>
 <hr>
-<form action="/register">
+<form action="/Register" method="post">
     <table>
         <tr>
             <td>用户名：</td>
@@ -22,10 +23,11 @@
         </tr>
         <tr>
             <td>密码：</td>
-            <td><input type="password" name="password" /></td>
+            <td><input type="pwd" name="pwd" /></td>
         </tr>
         <tr>
-            <td colspan="2" align="center"><input type="submit" value="注册"/></td>
+            <td colspan="2" align="center"><input type="submit" value="注册"/>&nbsp;&nbsp;<button><a
+                    href="/login">登录</a></button></td>
         </tr>
     </table>
 </form>
